@@ -1,0 +1,2 @@
+$ curl -s http://localhost:3060/api/gifts/3
+{"_id":"6adf57e54fcca4e29de2eb7e","id":"3","name":"Bookshelf","category":"Bathroom","condition":"Older","posted_by":"Giver 3","zipcode":"10002","date_added":1700172800,"age_days":16,"age_years":0.04,"description":"A bookshelf in older condition, free to a good home.","image":"/images/gift3.svg"}

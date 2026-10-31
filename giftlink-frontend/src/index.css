@@ -1,0 +1,13 @@
+body { font-family: Arial, sans-serif; margin: 0; background: #f6f7fb; }
+.container { max-width: 960px; margin: 20px auto; padding: 0 16px; }
+nav { background: #2c3e50; padding: 12px 24px; display: flex; gap: 16px; align-items: center; }
+nav a, nav span { color: #fff; text-decoration: none; }
+nav .spacer { flex: 1; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px; }
+.card { background: #fff; border-radius: 6px; padding: 12px; box-shadow: 0 1px 3px #0003; }
+.card img { width: 100%; }
+input, select, button { padding: 8px; margin: 4px 0; }
+.form { max-width: 360px; display: flex; flex-direction: column; }
+.hero { text-align: center; padding: 80px 16px; }
+.hero a.get-started { display: inline-block; margin-top: 12px; padding: 12px 28px; background: #2e7d32; color: #fff; border-radius: 6px; text-decoration: none; font-weight: bold; }
+.error { color: #b00020; }

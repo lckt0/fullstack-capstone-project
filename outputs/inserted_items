@@ -1,0 +1,10 @@
+$ cd giftlink-backend/util/import-mongo
+$ npm start
+
+> import-mongo@1.0.0 start
+> node index.js
+
+Inserted 16 documents
+
+$ mongosh giftdb --quiet --eval "db.gifts.countDocuments()"
+16

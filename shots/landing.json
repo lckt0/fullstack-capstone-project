@@ -1,0 +1,7 @@
+{
+  "static": {"dir": "../giftlink-frontend/build", "port": 8080},
+  "viewport": {"width": 1280, "height": 800},
+  "shots": [
+    {"out": "deployed_landingpage.png", "url": "http://localhost:8080/", "frame": true, "waitFor": ".hero", "steps": [{"waitFor": ".hero"}]}
+  ]
+}

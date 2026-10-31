@@ -1,0 +1,13 @@
+{
+  "name": "import-mongo",
+  "version": "1.0.0",
+  "description": "Imports the 16 GiftLink gifts into MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mongodb": "^6.8.0"
+  }
+}
