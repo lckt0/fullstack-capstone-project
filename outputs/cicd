@@ -1,0 +1,31 @@
+$ gh run view --job 124577842201
+
+✓ main CI/CD · 41215083710
+Triggered via push about 1 minute ago
+
+✓ Lint JavaScript Files in 9s (ID 124577842201)
+  ✓ Set up job
+  ✓ Checkout Repository
+  ✓ Install Node.js
+  ✓ Install JSHint
+  ✓ Run Linter
+  ✓ Post Install Node.js
+  ✓ Post Checkout Repository
+  ✓ Complete job
+
+$ gh run view --job 124577842201 --log   (Install JSHint / Run Linter steps)
+Install JSHint: Run npm install jshint --global
+Install JSHint: npm install jshint --global
+Install JSHint: shell: /usr/bin/bash -e {0}
+Install JSHint: npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+Install JSHint: npm warn deprecated glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+Install JSHint: 
+Install JSHint: added 31 packages in 1s
+Install JSHint: 
+Install JSHint: 3 packages are looking for funding
+Install JSHint:   run `npm fund` for details
+Run Linter: Run find ./giftlink-backend ./sentiment -name "*.js" -not -path "*/node_modules/*" -not -name "*.test.js" -exec jshint {} +
+Run Linter: find ./giftlink-backend ./sentiment -name "*.js" -not -path "*/node_modules/*" -not -name "*.test.js" -exec jshint {} +
+Run Linter: echo "Linted all the js files successfully"
+Run Linter: shell: /usr/bin/bash -e {0}
+Run Linter: Linted all the js files successfully
